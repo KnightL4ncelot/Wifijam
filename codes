@@ -1,0 +1,4 @@
+sudo git clone https://github.com/AsernaL/Wifijammer.git
+cd Wifijammer
+ls
+sudo python3 wifijammer.py
