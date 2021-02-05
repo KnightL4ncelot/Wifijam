@@ -1,6 +1,7 @@
 # Wifijammer
-jam to wifis with mac adress....
+jam to wifi's with mac adress....
 
+# install
 sudo apt install git
 
 sudo git clone https://github.com/AsernaL/Wifijammer.git
