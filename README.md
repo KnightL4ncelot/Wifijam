@@ -4,11 +4,11 @@ jam to wifi's with mac adress....
 # install
 sudo apt install git
 
-sudo git clone https://github.com/AsernaL/Wifijammer.git
+sudo git clone https://github.com/KnightL4ncelot/Wifijam.git
 
-cd Wifijammer
+cd Wifijam
 
-sudo python3 wifijammer.py
+sudo python3 KOS.py
 
 # İnstagram
-instagram @berkeswz
+instagram @KnightL4ncelot
