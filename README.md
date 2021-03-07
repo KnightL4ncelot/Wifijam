@@ -1,5 +1,6 @@
 # Wifijammer
 jam to wifi's with mac adress....
+only working for a laptops
 
 # install
 sudo apt install git
