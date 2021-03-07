@@ -24,8 +24,8 @@ subprocess.call('airmon-ng', shell=True)
 
 print('\n'*3)
 print(Fore.GREEN+'yukarıdaki interface kısmını yazın')
-networkCard = input(Fore.YELLOW+'Kullandığınız wifi kartını girin.. (interface): ')
-
+networkCard = input(Fore.CYAN+" ┌─/"+Fore.LIGHTBLUE_EX+"Write Interface"+Fore.CYAN+"""/
+ └──╼ """+Fore.LIGHTBLUE_EX+"=> ")
 
 subprocess.call('airmon-ng start {}'.format(networkCard), shell=True)
 subprocess.call('airmon-ng check kill', shell=True)
@@ -42,7 +42,8 @@ except KeyboardInterrupt:
 
 
 brdMac = 'ff:ff:ff:ff:ff:ff' 
-BSSID = input(Fore.YELLOW+'Lütfen BSSID/MAC adresini girin: ') 
+BSSID = input(Fore.CYAN+" ┌─/"+Fore.LIGHTBLUE_EX+"Write bssid/mac"+Fore.CYAN+"""/
+ └──╼ """+Fore.LIGHTBLUE_EX+"=> ") 
 print(Fore.YELLOW+'saldırıyı durdurmak icin ctrl+c ye basılı tutun')
 print(''*5)
 
